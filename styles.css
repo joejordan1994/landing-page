@@ -6,7 +6,7 @@
     background-color: #1f2937;
 }
 
-.section-1 {
+.very-top {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,4 +24,3 @@
     color: #E5E7EB;
     font-weight: 100;
 }
-
