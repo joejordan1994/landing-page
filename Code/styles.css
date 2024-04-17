@@ -1,7 +1,7 @@
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
-  outline: 1px solid red;
-  margin: 10px;
+  /* outline: 1px solid red; */
+  /* margin: 10px; */
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
@@ -14,6 +14,7 @@
 
 .upper-middle {
   color: #e5e7eb;
+  margin: 0px 100px 0px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,6 +22,7 @@
 
 .upper-middle button {
   width: 100px;
+  align-self: center;
 }
 
 .awesome-text {
@@ -35,11 +37,19 @@
   flex-wrap: wrap;
 }
 
+.image-container {
+  margin: 10%;
+}
+
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 0;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .logo {
@@ -48,14 +58,15 @@
 }
 
 nav {
-    display: flex;
-    gap: 20px;
-    font-size: 18px;
-    color: #e5e7eb;
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
 }
 
-.logo, nav a {
-    text-decoration: none;
+.logo,
+nav a {
+  text-decoration: none;
+  color: #e5e7eb;
 }
 
 footer {
