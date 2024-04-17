@@ -95,7 +95,7 @@ nav a {
   text-align: center;
   color: #1f2937;
   padding-top: 1em;
-  padding-bottom: 6em;
+  padding-bottom: 5em;
   flex-grow: 1;
   flex-shrink: 1;
   text-wrap: wrap;
@@ -129,11 +129,14 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 32px;
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
 
 .part-3 {
   background-color: #e5e7eb;
-  padding: 80px;
+  padding: 80px 180px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -143,7 +146,7 @@ footer {
 .part-3 p {
   padding-bottom: 32px;
   color: #1f2937;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 100;
   font-style: italic;
 }
@@ -151,6 +154,29 @@ footer {
 .thor {
   align-self: flex-end;
   font-weight: 900;
-  font-size: 32px;
+  font-size: 15px;
   color: #1f2937;
+}
+
+.part-4 {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 32px;
+  margin: 64px 128px;
+}
+
+.part-4 button {
+  padding: 1px 40px;
+  background-color: #3882f6;
+  border: 2px solid white;
+  color: white;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.action-text > p:first-of-type {
+  font-weight: 700;
 }
