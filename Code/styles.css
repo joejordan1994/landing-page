@@ -1,17 +1,61 @@
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
-  /* outline: 2px solid red; */
-  margin: 0;
+  outline: 1px solid red;
+  margin: 10px;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
 }
 
-.part-1 {
+.top {
+  background-color: #1f2937;
+  padding: 1em;
+}
+
+.upper-middle {
+  color: #e5e7eb;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.upper-middle button {
+  width: 100px;
+}
+
+.awesome-text {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.middle-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo, nav a {
+    text-decoration: none;
 }
 
 footer {
