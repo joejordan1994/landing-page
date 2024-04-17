@@ -39,6 +39,8 @@
   padding: 100px;
   background-color: grey;
   text-wrap: nowrap;
+  display: flex;
+  flex-shrink: 1;
 }
 
 .middle-text {
@@ -77,6 +79,99 @@ nav a {
   color: #e5e7eb;
   font-weight: 0;
 }
+
+.random-info {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  padding: 64px;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  color: #1f2937;
+  padding: 1em;
+  flex-grow: 1;
+  flex-shrink: 1;
+  text-wrap: wrap;
+}
+
+.box-one, .box-two, .box-three, .box-four {
+  border: 4.5px solid #3882f6;
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+.first-box, .second-box, .third-box, .fourth-box {
+  max-width: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  gap: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
   display: flex;
